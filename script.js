@@ -8,10 +8,12 @@
 
 	function seeAndSay () {
 		animals.forEach(function(animal){
-		 animals.gray=“gray”;
-		 console.log("I am a "+.name+" , I make the sound"+.sound+"my coat is"+.gray);
-		}
-	};
+		 animal.gray="gray";
+		 console.log("I am a "+animal.name+". I make the sound "+animal.sound+", my coat is "+animal.gray);
+		});
+	}
+
+	seeAndSay();
+
 })();
 
-	seeAndSay(animals);
